@@ -29,7 +29,7 @@ function error = sequential_estimator(mu,sigma)
         sample_variance_new = M2/(count-1);
         %Print this iteration results
         disp(new_point_txt);
-        disp([mean_txt, variance_txt]);
+        disp(append(mean_txt, variance_txt));
         % Convergence condition
         if abs(mean_new - mean_old) < epsilon && abs(population_variance_new - population_variance_old)<epsilon && count>2
             break;

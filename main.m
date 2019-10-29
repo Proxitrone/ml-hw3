@@ -1,8 +1,8 @@
 
-% mu = 3;
-% sigma = 5;
-% 
-% sequential_estimator(mu, sigma);
+mu = 3;
+sigma = 5;
+
+sequential_estimator(mu, sigma);
 
 % Test 1
 b =1;
